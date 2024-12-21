@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sneha!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!-- Page 1: Animation -->
+        <div id="page1" class="page active">
+            <h1>Happy Birthday</h1>
+            <div id="cat-animation" class="animation"></div>
+            <button id="to-slider" class="click-button">Click Here</button>
+        </div>
+
+        <!-- Page 2: Slider -->
+        <div id="page2" class="page hidden">
+            <div id="slider">
+                <div class="slide">
+                    <img src="photo1.jpg" alt="Photo 1">
+                    <p>I love your presence, it makes feel better.</p>
+                </div>
+                <div class="slide">
+                    <img src="photo2.jpg" alt="Photo 2">
+                    <p>this misti face also 🤭 </p>
+                </div>
+                <div class="slide">
+                    <img src="photo3.jpg" alt="Photo 3">
+                    <p>oh! i forgot,this eyes also 👀</p>
+                </div>
+            </div>
+            <div id="slider-controls">
+                <button id="prev">⟨</button>
+                <button id="next">⟩</button>
+            </div>
+            <button id="to-note" class="click-button">Click Here</button>
+        </div>
+
+        <!-- Page 3: Final Note -->
+        <div id="page3" class="page hidden">
+            <div id="final-note">
+                <div id="background-animation"></div>
+                <img src="final-note.jpg" alt="Final Note">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
